@@ -3,14 +3,20 @@
     padding: 0;
     margin: 0;
 }
-
-.attribution { font-size: 11px; text-align: center; }
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.attribution {
+    display: flex;
+    font-size: 11px; 
+    text-align: center;
+}
     .attribution a { color: hsl(228, 45%, 44%); }
 
 /* 
     font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
-
 
     body {
         background: hsl(30, 38%, 92%);
@@ -103,6 +109,10 @@ font-family: 'Montserrat', sans-serif; */
         font-size: 20px;
         border-radius: 10px;
         border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #1a4031;
     }
     .cart-icon {
         margin-right: 15px;
